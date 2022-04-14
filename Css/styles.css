@@ -23,13 +23,14 @@ header .navigation {
 
 .navigation ul li {
   position: relative;
+  margin: 5px;
   list-style: none;
   text-align: center;
   padding: 5px;
 }
 
 .navigation ul li a {
-  font-size: 0.5em;
+  font-size: 17px;
   color: #111;
   text-decoration: none;
   font-weight: 300;
@@ -72,17 +73,18 @@ ul li a.toggler {
 
 h2 {
   color: #fff;
-  padding-top: 50px;
+  padding-top: 150px;
+  font-size: 50px;
 }
 
 .hero {
   color: #fff;
-  font-size: 10px;
-  padding: 10px;
+  font-size: 20px;
+  padding: 20px;
 }
 
 button {
-  padding: 5px;
+  padding: 8px;
   border: 0.1px solid #fff;
   border-radius: 4px;
   background: #fac93a;
@@ -108,8 +110,8 @@ button:hover {
 
 .banner div img {
   margin: 12px auto;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px
 }
 
 .banner div p{
@@ -117,18 +119,17 @@ button:hover {
 }
 
 h3 {
-  font-size: 0.7em;
+  font-size: 20px;
   padding-bottom: 5px;
   text-align: center;
 }
 
 p {
-  font-size: 0.5em;
+  font-size: 15px;
   font-weight: inherit;
   display: block;
-  line-height: normal;
+  line-height: 20px;
   overflow-wrap: break-word;
-  line-height: 12px;
 }
 
 .main-footer {
@@ -140,11 +141,12 @@ p {
 
 h5 {
   display: inline-grid;
-  text-align: center;
-  color: #fff;
-  padding: 15px 0 10px 0;
-  font-size: 0.5em;
-  margin-left: 10%;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0 10px 0;
+    font-size: 20px;
+    margin-top: 7%;
+    margin-left: 15%;
 }
 
 .main-footer ul li {
@@ -157,7 +159,7 @@ h5 {
   color: #fff;
   text-decoration: none;
   padding: 20px;
-  font-size: 0.5em;
+  font-size: 15px;
 }
 
 .main-footer ul li a:hover{
@@ -166,8 +168,13 @@ h5 {
 
 h4 {
   color: #fff;
-  font-size: 0.5em;
-  font-weight: lighter;
-  text-align: center;
-  padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+h6{
+  font-size: 15px;
 }
